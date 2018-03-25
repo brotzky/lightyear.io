@@ -62,11 +62,13 @@ If this was an App that required scale I would aim to have a larger emphasis on 
 
 ## 6. Miscellaneous
 
-* Use dynamic imports or a library such as [React Loadable](https://github.com/jamiebuilds/react-loadable) to code split the `EssayTextForm` so the initial bundle served is lighter and faster to load.
+* PropTypes were used where props were being passed own by developer code
+* With more time, it may be useful to use dynamic imports or a library such as [React Loadable](https://github.com/jamiebuilds/react-loadable) to code split the `EssayTextForm` so the initial bundle served is lighter and faster to load.
 * I moved `getTextTemplate()` out of `constants.js` into its own utility file
 * I tried to balance simplicity, reusability, and readability the best I could -- I avoided cryptic variable names, made sure there were relevant comments, and kept functionality scoped to where it needed to be.
 * Tried to guess to font-family (Looks like Open Sans to me), and eye balled the styles as required
 * Start Over button requirements didn't make it clear if there should be a new essay template generated and all the inputs should be cleared. In my implementation I made it so all inputs are cleared and a new random essay template is generated.
+
 
 ---
 
