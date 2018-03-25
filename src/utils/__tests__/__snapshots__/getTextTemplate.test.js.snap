@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Utility] getTextTemplate should return an array of sentences for 'bar' of random essay sentences 1`] = `
+Array [
+  "$answer is my old haunt.",
+  "$answer is my Cheers.",
+  "$answer is my Paddy’s Pub.",
+  "You can always catch me at $answer.",
+  "Take me to $answer and I’ll marry you right now.",
+  "$answer is my spot.",
+  "$answer is my home-away-from-home.",
+]
+`;
+
+exports[`[Utility] getTextTemplate should return an array of sentences for 'favoriteFood' of random essay sentences 1`] = `
+Array [
+  "Can’t get enough $answer.",
+  "Addicted to $answer.",
+  "Obsessed with $answer.",
+  "Love going out for $answer.",
+  "Love eating $answer.",
+  "Can’t live without $answer.",
+  "$answer please.",
+]
+`;
+
+exports[`[Utility] getTextTemplate should return an array of sentences for 'hometown' of random essay sentences 1`] = `
+Array [
+  "Grew up in $answer.",
+  "Hail from $answer.",
+  "$answer born and bred.",
+  "$answer, born and raised.",
+  "Transplant from $answer.",
+  "$answer native.",
+  "Originally from $answer.",
+]
+`;
+
+exports[`[Utility] getTextTemplate should return an array of sentences for 'loveToDo' of random essay sentences 1`] = `
+Array [
+  "I $answer constantly.",
+  "Love to $answer.",
+  "Can never $answer enough.",
+  "I $answer whenever I get the chance.",
+  "In my spare time I $answer.",
+]
+`;
+
+exports[`[Utility] getTextTemplate should return an array of sentences for 'messageIf' of random essay sentences 1`] = `
+Array [
+  "Message if you $answer.",
+  "Hit me up if you $answer.",
+  "If you $answer, we need to meet.",
+  "Send me a message if you $answer.",
+  "If you $answer, let’s chat.",
+]
+`;
+
+exports[`[Utility] getTextTemplate should return an array of sentences for 'music' of random essay sentences 1`] = `
+Array [
+  "I just got into $answer.",
+  "Been jamming to $answer recently.",
+  "I’d kill to see $answer live.",
+  "Love listening to $answer.",
+  "$answer is my new obsession.",
+  "$answer is my new god.",
+]
+`;
